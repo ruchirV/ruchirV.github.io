@@ -1,0 +1,26 @@
+@import "abstract/variables";
+@import "abstract/functions";
+@import "abstract/mixins";
+
+@import "base/animations";
+@import "base/utilities";
+@import "base/typography";
+@import "base/base";
+
+@import "components/bg-video";
+@import "components/composition";
+@import "components/card";
+@import "components/button";
+@import "components/feature-box";
+@import "components/form";
+@import "components/story";
+@import "components/popup";
+
+@import "layout/grid";
+@import "layout/header";
+@import "layout/footer";
+@import "layout/navigation";
+
+@import "pages/home";
+
+@import "../node_modules/@icon/linea-basic/linea-basic.css"
