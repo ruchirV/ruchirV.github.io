@@ -12,6 +12,7 @@
 		height: 53rem;
 		transition: all .8s ease;
 		font-size : 2rem;
+		-webkit-backface-visibility: hidden;
 		backface-visibility: hidden;
 		border-radius: 5px;
 		overflow: hidden; /* important for the child image corner radius */
