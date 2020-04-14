@@ -15,6 +15,16 @@
     top: 6rem;
     right: 6rem;
 
+    @include respond(tab-port) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
+
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
+
     z-index: 2000;
     cursor: pointer;
 
@@ -30,6 +40,16 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
+
+    @include respond(tab-port) {
+      top: 4rem;
+      right: 4rem;
+    }
+
+    @include respond(phone) {
+      top: 3.5rem;
+      right: 3.5rem;
+    }
 
     background-image: radial-gradient($color-primary-light, $color-primary-dark);
 
